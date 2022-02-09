@@ -1,0 +1,35 @@
+.navbar .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.3em 4%;
+}
+
+.navbar .header .logo p {
+  color: #EE00F3;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.navbar .header .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .header .right ul li {
+  margin-left: 42px;
+}
+
+.navbar .header .right ul li p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,28 @@
+.navbar{
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:1.3em 4%;
+        .logo{
+            p{
+                color: #EE00F3;
+                font-weight: 600;
+                font-size: 2rem;
+            }
+        }
+        .right{
+            ul{
+                display: flex;
+                li{
+                    margin-left: 42px;
+                    p{
+                        font-weight: 500;
+                        font-size: 1.8rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
